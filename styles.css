@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+
+    div {
+        width: 50px;
+        height: 50px;
+        background-color: aquamarine;
+        border: solid 1px black;
+    }
+}
+
+#main1 {
+    display: flex;
+    gap: 10px;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+
+    flex-flow: row nowrap;
+    height: 100vh;
+}
+
+#main2 {
+    display: flex;
+    background-color: brown;
+    justify-content: space-around;
+    align-items: end;
+    
+    flex-flow: column wrap;
+    
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+}
+
